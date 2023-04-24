@@ -1,3 +1,4 @@
+
 package main
 
 import (
@@ -8,7 +9,7 @@ import (
 )
 
 func main() {
-        conn, err := net.Dial("tcp", "172.17.0.4:8008")
+        conn, err := net.Dial("tcp", "172.17.0.2:35679")
         if err != nil {
                 log.Fatal(err)
         }
